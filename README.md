@@ -1,10 +1,10 @@
 # SnowflakeBasketballDataWarehouse
 
-SnowflakeBasketballDataWarehouse is a data-curation and analytics project built on the OPTA Basketball Schedule and Results dataset from the Snowflake Marketplace. The project ingests, enhances, aggregates, and analyzes professional basketball game data using Snowflake SQL. It emphasizes structured workflows, reproducibility, semantic tagging, curated dimensional models, and multi-layer analytical processing across curation, aggregation, and scheduling tasks.
+SnowflakeBasketballDataWarehouse is a data curation and analytics project built on the OPTA Basketball Schedule and Results dataset from the Snowflake Marketplace. The project ingests, enhances, aggregates, and analyzes professional basketball game data using Snowflake SQL. It emphasizes structured workflows, reproducibility, semantic tagging, curated dimensional models, and multi-layer analytical processing across curation, aggregation, and scheduling tasks.
 
 ## Overview
 
-This project was created to transform marketplace basketball data into a clean, enriched, and analytics-ready model suitable for sports performance insights. The final outputs include curated dimension and fact tables, enrichment logic via stored procedures, multi-level aggregations, a table function, a scheduled task, and documentation summarizing the pipeline.
+This project was created to transform marketplace basketball data into a clean, enriched, and analytics ready model suitable for sports performance insights. The final outputs include curated dimension and fact tables, enrichment logic via stored procedures, multi-level aggregations, a table function, a scheduled task, and documentation summarizing the pipeline.
 
 The workflow includes:
 
@@ -13,13 +13,11 @@ The workflow includes:
 - Applying additional enhancements via stored procedures  
 - Constructing aggregated tables and views for team, venue, season, and daily scoring analytics  
 - Creating a materialized view for fast retrieval of top-scoring teams  
-- Implementing a reusable table function for team-level statistical filtering  
+- Implementing a reusable table function for team level statistical filtering  
 - Automating pipeline execution through a Snowflake task  
 - Producing a summary of logic, naming conventions, and data catalog details  
 
 ## Features
-
-- **Marketplace Data Integration** — Reads directly from the OPTA Basketball dataset using Snowflake’s shared data capabilities.
 
 - **Curation Layer Construction** — Generates:
   - Date dimension with calendar attributes  
@@ -117,7 +115,6 @@ A performance-optimized object identifying high-scoring teams based on game coun
 ### 4. Table Function
 
 A reusable function:
-
 
 Returns rows for teams meeting the minimum game requirement with PPG and split scoring stats.
 
