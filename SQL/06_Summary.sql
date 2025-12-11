@@ -1,5 +1,11 @@
+//////////////////////////////////////////////
+// SnowflakeBascketballDataWarehouse
+// OPTA_DATA_BASKETBALL_SCHEDULE_AND_RESULTS_DATA__SAMPLE
+// Odin Lee
+//////////////////////////////////////////////
+
 // =================================================== //
-//                 Worksheet 7: Summary                //
+//                 Worksheet 6: Summary                //
 // =================================================== //
 
 /*
