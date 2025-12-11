@@ -62,6 +62,7 @@ The workflow includes:
 │   ├── 04_Function.sql
 │   ├── 05_Task.sql
 │   └── 06_Summary.sql
+├── .gitattributes
 ├── LICENSE
 ├── Project Instructions.pdf
 └── README.md
