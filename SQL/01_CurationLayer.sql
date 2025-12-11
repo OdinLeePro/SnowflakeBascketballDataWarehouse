@@ -1,8 +1,7 @@
 //////////////////////////////////////////////
-// Basketball Analysis Project
+// SnowflakeBascketballDataWarehouse
 // OPTA_DATA_BASKETBALL_SCHEDULE_AND_RESULTS_DATA__SAMPLE
 // Odin Lee
-// Fall 2025, SEIS 732
 //////////////////////////////////////////////
 
 // Initial Setup
