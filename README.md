@@ -48,26 +48,24 @@ The workflow includes:
 ## Project Structure
 
 ```
-/MiLBDataQuality
-├── Cleaned Data/
-│   ├── CombinedData.csv
-│   ├── fellowContactCleaned.csv
-│   └── fellowPitchCleaned.csv
+/SnowflakeBascketballDataWarehouse
 ├── Documents/
-│   ├── AvgExitVelo.pdf
-│   ├── Errors.pdf
-│   └── Process.pdf
-├── Raw Data/
-│   ├── BBOps_DQ_26FellowContact.csv
-│   └── BBOps_DQ_26FellowPitch.csv
-├── Analysis.ipynb
+│   ├── Dashbard_Screenshots/
+│   │   ├── Tile01.png
+│   │   ├── Tile02.png
+│   │   └── Tile03.png
+│   └── ER_Diagram.png
+├── SQL/
+│   ├── 01_CurationLayer.sql
+│   ├── 02_StoredProcedure.sql
+│   ├── 03_AggregationLayer.sql
+│   ├── 04_Function.sql
+│   ├── 05_Task.sql
+│   └── 06_Summary.sql
 ├── LICENSE
 ├── Project Instructions.pdf
-├── TeamsData.csv
-├── README.md
-└── Project Proposal.docx
+└── README.md
 ```
-
 
 ## Data Sources
 
